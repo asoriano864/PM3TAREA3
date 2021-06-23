@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ActivityConsulta">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Busqueda de Contacto"
+        android:textColor="#3F51B5"
+        android:textSize="34sp" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+
+        >
+
+        <EditText
+            android:id="@+id/id"
+            android:layout_width="258dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Buscar ID" />
+
+        <Button
+            android:id="@+id/btnBuscar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Buscar" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/txtNombres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombres"
+        />
+
+    <EditText
+        android:id="@+id/txtApellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Apellidos"
+        />
+
+    <EditText
+        android:id="@+id/txtCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Correo"
+        />
+    <EditText
+        android:id="@+id/txtEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Edad"
+        />
+    <EditText
+        android:id="@+id/txtDireccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Direccion"
+        />
+
+    <LinearLayout
+        android:id="@+id/linearlayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <Button
+            android:id="@+id/btnEliminar"
+            android:layout_width="203dp"
+            android:layout_height="wrap_content"
+            android:text="Eliminar"></Button>
+
+        <Button
+            android:id="@+id/btnActualizar"
+            android:layout_width="211dp"
+            android:layout_height="wrap_content"
+            android:text="Actualizar"></Button>
+    </LinearLayout>
+</LinearLayout>
